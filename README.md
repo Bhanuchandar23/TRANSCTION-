@@ -1,5 +1,6 @@
 # TRANSCTION- 
 java JDBC Bank Application
+
 This is a simple console-based banking application developed using Java JDBC (Java Database Connectivity) to interact with a MySQL database. 
 The application allows users to log in, check their account balance, and transfer funds to another account.
 
@@ -29,19 +30,26 @@ Application Configuration:
 
 Update the url, USER_NAME, and PASSWORD variables in the BankApp class with your MySQL database connection details.
 Running the Application
+
+
 Compile the BankApp.java file using your Java compiler:
-bash
-Copy code
 javac BankApp.java
+
 Run the compiled Java class:
-bash
-Copy code
+java BankApp
+
 java BankApp
 Follow the on-screen instructions to interact with the application.
 Features
+
 Login Module: Users can log in using their account number and PIN.
+
+
 Check Balance: Users can view their account balance after logging in.
+
+
 Transfer Module: Users can transfer funds to another account.
+
 Transaction Handling: The application uses transaction management to ensure data consistency during fund transfers.
 Contributing
 
