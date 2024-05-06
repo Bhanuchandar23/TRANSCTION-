@@ -19,16 +19,14 @@ Setup
 Database Setup:
 Create a MySQL database named banksbi.
 Create a table named account with columns Acc_num, Name, pin, and balance.
-Sample SQL script to create the account table:
-sql
-Copy code
-CREATE TABLE account (
-    Acc_num INT PRIMARY KEY,
-    Name VARCHAR(50),
-    pin INT,
-    balance INT
-);
+
+
+
+
+
+
 Application Configuration:
+
 Update the url, USER_NAME, and PASSWORD variables in the BankApp class with your MySQL database connection details.
 Running the Application
 Compile the BankApp.java file using your Java compiler:
